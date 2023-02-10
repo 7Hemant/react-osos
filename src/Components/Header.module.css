@@ -1,0 +1,24 @@
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 5px double rgb(9, 196, 9);
+  background: #eee;
+  opacity: 0.8;
+}
+.logo {
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+  display: flex;
+  padding: 0 1rem;
+}
+li {
+  margin: 0 1rem;
+  cursor: pointer;
+}

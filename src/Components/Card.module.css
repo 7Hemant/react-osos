@@ -1,0 +1,17 @@
+.card {
+  height: 280px;
+  width: 300px;
+  cursor: pointer;
+}
+.imgContainer {
+  height: 200px;
+  width: 300px;
+}
+
+h1 {
+  font-size: 1rem;
+}
+h2 {
+  font-size: 0.8rem;
+  color: rgb(10, 168, 10);
+}
