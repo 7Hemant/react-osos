@@ -31,7 +31,9 @@ const Main = () => {
   console.log(value);
   return (
     <>
-      {isloading && (
+      {isloading ? (
+        <h1>....Loading.....</h1>
+      ) : (
         <div className={style.main}>
           {value?.map((item, index) => (
             <Card key={index} image={item?.image?.url} title={item?.title} />
