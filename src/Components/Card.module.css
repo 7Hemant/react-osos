@@ -2,12 +2,18 @@
   height: 280px;
   width: 300px;
   cursor: pointer;
+  box-shadow: 1px 5px 5px #eee;
+  padding: 1rem;
 }
 .imgContainer {
   height: 200px;
   width: 300px;
 }
-
+.imgContainer img {
+  height: 200px;
+  width: 300px;
+  object-fit: fill;
+}
 h1 {
   font-size: 1rem;
 }

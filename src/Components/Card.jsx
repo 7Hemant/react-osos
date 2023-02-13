@@ -5,10 +5,10 @@ const Card = (props) => {
   return (
     <div className={style.card}>
       <div className={style.imgContainer}>
-        <img src={image} alt="" />
+        <img src={props?.image} alt="" />
       </div>
       <div className={style.content}>
-        <h1>Movie Name</h1>
+        <h1>{props?.title}</h1>
         <h2>Play now</h2>
       </div>
     </div>
