@@ -8,7 +8,7 @@ function App() {
   const IsAuthenticated = useSelector(
     (state) => state.userAuth.isAuthenticated
   );
-  console.log(IsAuthenticated);
+  console.log(IsAuthenticated, "--");
   return (
     <div className="App">
       <Header />

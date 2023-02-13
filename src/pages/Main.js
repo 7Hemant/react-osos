@@ -5,9 +5,7 @@ import axios from "axios";
 const Main = () => {
   const [value, setValue] = useState([]);
   const [isloading, setisLoading] = useState(false);
-  // axios.get("https://imdb8.p.rapidapi.com/title/v2/find").then((res) => {
-  //   console.log(res);
-  // });
+
   useEffect(() => {
     axios
       .get(
@@ -28,17 +26,17 @@ const Main = () => {
         setisLoading(true);
       });
   }, [isloading]);
-  console.log(value);
+  console.log(value, isloading);
   return (
     <>
       {isloading ? (
-        <h1>....Loading.....</h1>
-      ) : (
         <div className={style.main}>
           {value?.map((item, index) => (
             <Card key={index} image={item?.image?.url} title={item?.title} />
           ))}
         </div>
+      ) : (
+        <h1>....Loading.....</h1>
       )}
       {/* <div className={style.main}>
         {[0, 2, 3, 5, 6, 7, 8, 9, 4].map((item, index) => (
