@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/osos/static/css/main.05004a9e.css",
-    "main.js": "/osos/static/js/main.b27fde11.js",
-    "static/media/image.jpg": "/osos/static/media/image.76ab345c216ad8f153d1.jpg",
-    "index.html": "/osos/index.html",
-    "main.05004a9e.css.map": "/osos/static/css/main.05004a9e.css.map",
-    "main.b27fde11.js.map": "/osos/static/js/main.b27fde11.js.map"
+    "main.css": "/react-osos/static/css/main.05004a9e.css",
+    "main.js": "/react-osos/static/js/main.e99d11ad.js",
+    "static/media/image.jpg": "/react-osos/static/media/image.76ab345c216ad8f153d1.jpg",
+    "index.html": "/react-osos/index.html",
+    "main.05004a9e.css.map": "/react-osos/static/css/main.05004a9e.css.map",
+    "main.e99d11ad.js.map": "/react-osos/static/js/main.e99d11ad.js.map"
   },
   "entrypoints": [
     "static/css/main.05004a9e.css",
-    "static/js/main.b27fde11.js"
+    "static/js/main.e99d11ad.js"
   ]
 }
