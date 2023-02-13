@@ -6,7 +6,7 @@ const Routers = () => {
   console.log("router");
   return (
     <Routes>
-      <Route path="/" element={<Main />} />
+      <Route path="react-osos/" element={<Main />} />
     </Routes>
   );
 };
