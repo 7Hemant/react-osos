@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-osos/static/css/main.f7ad3b0e.css",
-    "main.js": "/react-osos/static/js/main.aab54631.js",
+    "main.js": "/react-osos/static/js/main.b4b2475c.js",
     "static/media/image.jpg": "/react-osos/static/media/image.76ab345c216ad8f153d1.jpg",
     "index.html": "/react-osos/index.html",
     "main.f7ad3b0e.css.map": "/react-osos/static/css/main.f7ad3b0e.css.map",
-    "main.aab54631.js.map": "/react-osos/static/js/main.aab54631.js.map"
+    "main.b4b2475c.js.map": "/react-osos/static/js/main.b4b2475c.js.map"
   },
   "entrypoints": [
     "static/css/main.f7ad3b0e.css",
-    "static/js/main.aab54631.js"
+    "static/js/main.b4b2475c.js"
   ]
 }
