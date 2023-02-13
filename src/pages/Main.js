@@ -26,7 +26,7 @@ const Main = () => {
         setisLoading(true);
       });
   }, [isloading]);
-  console.log(value, isloading);
+  console.log("rending", value, isloading);
   return (
     <>
       {isloading ? (
@@ -38,11 +38,6 @@ const Main = () => {
       ) : (
         <h1>....Loading.....</h1>
       )}
-      {/* <div className={style.main}>
-        {[0, 2, 3, 5, 6, 7, 8, 9, 4].map((item, index) => (
-          <Card key={index} />
-        ))}
-      </div> */}
     </>
   );
 };
