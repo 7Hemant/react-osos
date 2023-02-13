@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/osos/static/css/main.05004a9e.css",
+    "main.js": "/osos/static/js/main.b27fde11.js",
+    "static/media/image.jpg": "/osos/static/media/image.76ab345c216ad8f153d1.jpg",
+    "index.html": "/osos/index.html",
+    "main.05004a9e.css.map": "/osos/static/css/main.05004a9e.css.map",
+    "main.b27fde11.js.map": "/osos/static/js/main.b27fde11.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05004a9e.css",
+    "static/js/main.b27fde11.js"
+  ]
+}
