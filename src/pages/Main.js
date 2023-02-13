@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
+
 import Card from "../Components/Card";
 import style from "./Main.module.css";
 import axios from "axios";
+import { Link } from "react-router-dom";
 const Main = () => {
   const [value, setValue] = useState([]);
   const [isloading, setisLoading] = useState(false);
@@ -32,7 +34,11 @@ const Main = () => {
       {isloading ? (
         <div className={style.main}>
           {value?.map((item, index) => (
-            <Card key={index} image={item?.image?.url} title={item?.title} />
+            <div key={index}>
+              <Link to={`${item?.id}`}>
+                <Card image={item?.image?.url} title={item?.title} />
+              </Link>
+            </div>
           ))}
         </div>
       ) : (

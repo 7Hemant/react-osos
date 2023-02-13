@@ -8,6 +8,7 @@ const Auth = () => {
   const dispatch = useDispatch();
   const submitHandle = (e) => {
     e.preventDefault();
+    localStorage.setItem("login", "loginUser");
     dispatch(login({ email, password }));
   };
   return (
