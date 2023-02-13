@@ -6,8 +6,8 @@ const Routers = () => {
   console.log("router");
   return (
     <Routes>
-      <Route path="/" element={<Main />} />
-      <Route path="/:title/:id" element={<Detail />} />
+      <Route path="react-osos/" element={<Main />} />
+      <Route path="react-osos/:title/:id" element={<Detail />} />
     </Routes>
   );
 };
