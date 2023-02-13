@@ -35,7 +35,7 @@ const Main = () => {
         <div className={style.main}>
           {value?.map((item, index) => (
             <div key={index}>
-              <Link to={`${item?.id}`}>
+              <Link to={`react-osos/${item?.id}`}>
                 <Card image={item?.image?.url} title={item?.title} />
               </Link>
             </div>
